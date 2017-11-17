@@ -60,15 +60,13 @@ exports.run = () => {
                 textAr[0] = textAr[0] + "...";
                 for(i=1; i < textAr.length-1; i++){
                     textAr[i] = "..." + textAr[i] + "...";
+
                 }
                 textAr[textAr.length-1] = "..." + textAr[textAr.length-1];
                 textAr[textAr.length] = "\nFeed Link: <" + url + ">\n\n" + image;
-            }
-            if(title != commandData.embeds.title) {
-                commandData.embeds.title = title;
-                commandData.embeds.description = description;
-                commandData.embeds.url = url;
-                commandData.embeds.image = image;
+            }else var textAr[0] = text;
+            if(title !== commandData.embeds.title) {
+                commandData.title = title;
                 fs.writeFile("./commandData/RainbowSixSiege.json", JSON.stringify(commandData), (err) => console.error);
                 var count = -1;
                 var send = function() {
