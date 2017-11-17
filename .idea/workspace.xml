@@ -77,9 +77,15 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
+    <option name="x" value="-8" />
+    <option name="width" value="976" />
+    <option name="height" value="1038" />
+=======
     <option name="x" value="-7" />
     <option name="width" value="1734" />
     <option name="height" value="1407" />
+>>>>>>> 45985365fb87bd864ff166f194fa10f823135c75
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -150,15 +156,26 @@
       <option name="presentableId" value="Default" />
       <updated>1510772183350</updated>
 <<<<<<< HEAD
+      <workItem from="1510772184724" duration="5492000" />
+=======
+<<<<<<< HEAD
       <workItem from="1510772184724" duration="3296000" />
       <workItem from="1510796983876" duration="131000" />
 =======
       <workItem from="1510772184724" duration="4901000" />
 >>>>>>> 1e1acfed3bf8f66ef7ef58daab839c2ed72dbf86
+>>>>>>> 45985365fb87bd864ff166f194fa10f823135c75
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="5492000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+=======
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="3427000" />
 =======
@@ -167,6 +184,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="3456" height="1416" extended-state="6" />
+>>>>>>> 45985365fb87bd864ff166f194fa10f823135c75
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.051784668" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
