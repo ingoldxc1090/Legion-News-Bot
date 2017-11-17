@@ -69,7 +69,7 @@ exports.run = () => {
                 commandData.embeds.description = description;
                 commandData.embeds.url = url;
                 commandData.embeds.image = image;
-                fs.writeFile("./commandData/RainbowSixSiege", JSON.stringify(commandData), (err) => console.error);
+                fs.writeFile("./commandData/RainbowSixSiege.json", JSON.stringify(commandData), (err) => console.error);
                 var count = -1;
                 var send = function() {
                     count++;
