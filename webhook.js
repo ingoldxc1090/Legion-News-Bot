@@ -5,12 +5,10 @@ fs.readdir("./commands", function(err, files) {
         console.error(err);
         return;
     }
-    let command = require(`./commands/${files[1]}`);
-    command.run();
-    for(i=1; i > files.length; i++) {
+    for(i=1; i < files.length; i++) {
         let command = require(`./commands/${files[i]}`);
         try {
-            command.run(client);
+            command.run();
         } catch(err){
             console.error(err);
         }
